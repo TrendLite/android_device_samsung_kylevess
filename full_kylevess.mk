@@ -122,7 +122,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 include frameworks/native/build/phone-hdpi-512-dalvik-heap.mk
 include frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk
 
-$(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
+# $(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ifeq ($(TARGET_BUILD_VARIANT),user)      
