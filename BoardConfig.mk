@@ -124,6 +124,7 @@ BOARD_RECOVERY_ALWAYS_WIPES := false
 BOARD_SUPPRESS_EMMC_WIPE := true
 TARGET_RECOVERY_DENSITY := hdpi
 TW_THEME := portrait_hdpi
+TW_NO_CPU_TEMP := true
 # CMHW
 BOARD_HARDWARE_CLASS := hardware/samsung/cmhw/ device/samsung/kylevess/cmhw/
 
